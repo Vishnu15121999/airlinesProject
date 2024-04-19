@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dashboard-container{
+  background-image: linear-gradient(#1E47AA,#133588,#031C58);
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.flights_table{
+  background-color: #F6F6FF;
+  padding: 10px;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 0px 0px 10px 10px ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-head{
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #F4F2FF;
+  color: #6E6893;
+}
+.table-date{
+  padding: 5px;
+  text-align: center;
+  background-color: white;
 }
